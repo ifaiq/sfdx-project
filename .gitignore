@@ -4,8 +4,13 @@
 
 # Salesforce cache
 .sfdx/
-.sfdx
-.vscode
+.localdevserver/
+
+# LWC VSCode autocomplete
+**/lwc/jsconfig.json
+
+# LWC Jest coverage reports
+coverage/
 
 # Logs
 logs
@@ -28,3 +33,6 @@ Thumbs.db
 ehthumbs.db
 [Dd]esktop.ini
 $RECYCLE.BIN/
+
+# Local environment variables
+.env
